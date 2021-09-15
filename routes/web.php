@@ -19,6 +19,6 @@ Route::get('/', function () {
 
 Route::get('/nombre/{nombre}', function($nombre){
 
-    return '<h1>El nombre es '.$nombre.'</h1>';
+    return '<h1>El nombre enviado es '.$nombre.'</h1>';
 
 });
